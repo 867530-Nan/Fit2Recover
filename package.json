@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Matthew Peterson",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react-bootstrap": "^0.31.0"
+  }
 }
