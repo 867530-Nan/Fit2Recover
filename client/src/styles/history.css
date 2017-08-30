@@ -1,0 +1,62 @@
+	.beforeafter{
+		background: linear-gradient(
+	      rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../components/photodump/BeforeAfter.jpg') center no-repeat;
+	}
+
+	.CFU > img {
+		margin: 0 auto !important;
+	}
+
+@media (max-width: 998px){
+	.redstripe {
+		width: 100% !important;
+	}
+}  
+	
+@media(max-width: 768px) {
+	.topPadding{ 
+	padding-top: 40px !important;
+	}
+	.beforeafter {
+		height: 200px;
+		background: linear-gradient(
+		      rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('../components/photodump/empty-gym.jpeg') center no-repeat;
+		align-items: flex-start !important;
+	}
+	.beforeAfterWords{
+		padding-top: 50px !important;
+		font-size: 6em !important;
+	}
+	.singlePic {
+		width: 50% !important;
+		margin: 0 auto !important;
+	}
+	.gridWords {
+		text-align: center;
+	}
+	.gridContainer:last-child {
+		margin-bottom: 0px !important;
+	}
+	.gridContainer:nth-child(even) {
+		background-color: lightgray;
+	}
+	.gridWords {
+		width: 100% !important;
+	}
+}
+
+@media (max-width: 660px){
+	.redStripeWords {
+		padding: 0 30px;
+		font-size: 22px !important;
+	}
+}
+
+@media (max-width: 450px){
+	.beforeAfterWords {
+		font-size: 4em !important;
+	}
+}
+
+
+	

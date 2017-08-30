@@ -1,0 +1,243 @@
+.communityServiceHeaderPhoto {
+	background: linear-gradient(
+	      rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1)), url('../components/photodump/circle_of_life.jpg') top no-repeat;
+		background-size: cover;
+    background-attachment: fixed;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+}
+
+.communityServiceText{
+	padding-top: 70px;
+}
+
+.communityServiceHeaderTitle {
+	font-size: 80px;
+	text-align: center;
+	line-height: 1;
+	margin-bottom: 30px;
+}
+
+.communityServiceHeaderShort {
+	font-size: 30px;
+	text-align: center;
+}
+
+.howWeServe {
+	height: 125px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1064A4;
+	color: white;
+	font-size: 60px;
+}
+
+.whatWeDoLeft {
+	height: 100%;
+	display: flex;
+	flex: 1 1 35%;
+	justify-content: center;
+	align-self: center;
+	background-color: #10CDFF;
+	color: white;
+}
+
+.whatWeDoRight {
+	padding: 0 30px;
+	flex: 1 1 65%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: #FF2A08;
+	color: white;
+}
+
+.whatWeDoLeftWomens {
+	height: 100%;
+	display: flex;
+	flex: 1 1 35%;
+	justify-content: center;
+	align-self: center;
+	background-color: #06BD3D;
+	color: white;
+}
+
+.whatWeDoRightWomens {
+	padding: 0 30px;
+	flex: 1 1 65%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: #FF8508;
+	color: white;
+}
+
+.whatWeDoLeftCommunity {
+	height: 100%;
+	display: flex;
+	flex: 1 1 35%;
+	justify-content: center;
+	align-self: center;
+	background-color: #6E0FAB;
+	color: white;
+}
+
+.whatWeDoRightCommunity {
+	padding: 0 30px;
+	flex: 1 1 65%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: #059F8F;
+	color: white;
+}
+
+.whatWeDoText {
+	margin: auto 0;
+	text-align: center;
+	font-size: 60px;
+	line-height: 1;
+}
+
+.serviceMeansText {
+	font-size: 28px;
+	line-height: 1;
+}
+
+.serviceMeansTreat {
+	font-size: 20px;
+	line-height: 1;
+}
+
+
+.alwaysHappening{
+	height: 100px;
+	font-size: 26px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+  background-color: #E3662E;
+  line-height: 1;
+  text-align: center;
+}
+
+.alwaysHappening:hover{
+	background-color: #F68856;
+	cursor: pointer;
+}
+
+.aService {
+	color: white !important;
+}
+
+@media (max-width: 992px) {
+	.communityServiceHeaderTitle {
+		font-size: 50px;
+	}
+	.communityServiceHeaderShort{
+		font-size: 24px;
+	}
+	.communityServiceHeaderPhoto {
+		height: 400px;
+	}
+	.serviceMeansText{
+		font-size: 24px;
+	}
+	.serviceMeansTreat {
+		font-size: 20px;
+	}
+	.howWeServe{
+		height: 100px;
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 992px) {
+	.communityServiceHeaderTitle {
+		font-size: 40px;
+	}
+	.whatWeDo {
+		height: 250px !important;
+	}
+	.whatWeDoText {
+		font-size: 40px
+	}
+	.serviceMeansText{
+		font-size: 20px;
+	}
+	.serviceMeansTreat {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 700px) {
+	.womensGroupWords {
+		padding: 30px 20px 0px 20px !important;
+		font-size: 18px !important;
+	}
+	.womensGroupTitle{
+		padding: 60px 0;
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 550px) {
+	.whatWeDoText {
+		font-size: 24px;
+	}
+	.serviceMeansText{
+		font-size: 16px;
+	}
+	.serviceMeansTreat {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 523px) {
+	.alwaysHappening {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 435px) {
+	.womensGroupWords {
+		padding: 10px 20px 0px 20px !important;
+		font-size: 15px !important;
+	}
+	.womensGroupTitle{
+		padding: 80px 0;
+		font-size: 20px;
+	}
+	.howWeServe{
+		height: 75px;
+		font-size: 26px;
+	}
+	.communityServiceHeaderTitle{
+		font-size: 26px !important;
+	}
+	.communityServiceHeaderShort {
+		font-size: 17px;
+	}
+	.communityServiceHeaderPhoto {
+		height: 300px;
+	}
+	.alwaysHappening {
+		font-size: 18px;
+		padding: 0px 20px !important;
+	}
+}
+
+@media (max-width: 350px) {
+	.whatWeDoText {
+		font-size: 24px;
+	}
+	.serviceMeansText{
+		font-size: 14px;
+	}
+	.serviceMeansTreat {
+		font-size: 14px;
+	}
+}

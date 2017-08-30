@@ -1,0 +1,404 @@
+.map:hover {
+	background-color: #CC0000 !important;
+}
+
+.heading768 {
+	display: none;
+}
+a.creativeButton:hover {
+	background-color: #332df7;
+	color: white !important;
+}
+
+a.fitnessButton:hover {
+	background-color: #f90101;
+	color: white !important;
+}
+
+a.serviceButton:hover {
+	background-color: #8e44ad;
+	color: white !important;
+}
+
+a.nutritionButton:hover {
+	background-color: #349c09;
+	color: white !important;
+}
+
+.pButton:hover {
+	background-color: red !important;
+	color: white !important;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px){
+
+	.mountain {
+		background: linear-gradient(
+	      rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(../components/photodump/mountainCROP768.jpeg) top center no-repeat !important;
+		height: 310px !important;
+		justify-content: flex-start !important;
+	}
+	.heading {
+		display: none;
+	}
+	.heading768 {
+		margin: -10px;
+		display: inline-flex !important;
+	}	
+	.pEA {
+		height: 450px !important;
+		margin: 20px 0 !important;
+	}
+	.triad {
+		margin: 10px 0 !important;
+	}
+	.pTitles {
+		font-size: 24px !important;
+	}
+	.pDesc {
+		font-size: 16px !important;
+	}
+	.quadCard {
+		padding: 0px 0px !important;
+	}
+	.quadPillarsFitness {
+		height: 290px !important;
+	}
+	.quadPillarLast {
+		margin-bottom: 20px;
+	}
+	.qTitile {
+		font-size: 24px !important;
+	}
+	.qDesc {
+		font-size: 16px !important;
+	}
+	.pillarIcon {
+		height: 60px !important;
+		width: 60px !important;
+	}
+	.donateWords {
+		font-size: 24px !important;
+		padding-bottom: 10px;
+	}
+}
+
+@media (max-width: 700px){
+	.slcMap {
+		font-size: 2em !important;
+	}
+	.map {
+		padding: 5px 15px !important;
+	}
+}
+
+@media (max-width: 670px) {
+	.pEA {
+		height: 500px !important;
+	}
+}
+
+@media (max-width: 540px){
+	.slcMap {
+		font-size: 1.5em !important;
+	}
+	.map {
+		padding: 5px 10px !important;
+	}
+	.donateWords {
+		font-size: 20px !important;
+	}
+}
+
+@media (max-width: 446px){
+.donateWords {
+		font-size: 18px !important;
+	}
+}
+
+@media (max-width: 430px) {
+	.fourTitle {
+		font-size: 24px !important;
+	}
+}
+
+@media (max-width: 415px){
+	.slcMap {
+		font-size: 1.3em !important;
+	}
+	.map {
+		padding: 3px 8px !important;
+	}
+}
+
+@media (max-width: 401px){
+.donateWords {
+		font-size: 16px !important;
+	}
+}
+/*
+ 
+
+html, body {
+	font-size: 10px;
+}
+
+h1, h3, h4 {
+	font-weight: 0;
+}
+
+Archivo+Black|Audiowide|Orbitron:400,500,700,900|Permanent+Marker|Righteous|Rubik:400,500,700,900|Russo+One|Work+Sans:700,900
+
+.map {
+	color: white;
+	background-color: red;
+	justify-content: center;
+	padding: 8px 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+
+a.map:hover {
+	color: white;
+}
+ 
+.mountain {	
+	height: 470px;
+	background: url('/photodump/mountainCROP.jpeg')
+	bottom center no-repeat;
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	padding-top: 70px;
+}
+
+.slcOnly {}
+
+.bottom-donate:hover {
+	background-color: none;
+}
+
+.heading {
+	align-self: center;
+	color: black;
+}
+
+.heading > p {
+	font-size: 1.6em;
+}
+
+.address {
+	justify-content: flex-end;
+	align-self: flex-start;
+	padding: 215px 0 0 150px;
+	font-size: 18px;
+}
+
+.learn-more:hover {
+	color: white;
+	background-color: red;
+	border: none;
+}
+
+.triad:first-child {
+	padding-left: 14px !important;
+}
+
+.triad {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 200px;
+}
+
+.ui.grid>.row>.column.triad {
+    padding-left: 2rem;
+  }
+
+.quad-pillars {
+	height: 300px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.basic:hover{
+	background-color: red !important;
+	color: white !important;
+}
+.fitnessButton:hover {
+	color: white !important;
+	background-color: #f90101 !important;
+	border: none;
+}
+
+.serviceButton:hover {
+	color: white !important;
+	background-color: #8e44ad !important;
+	border: none;
+}
+.creativeButton:hover {
+	color: white !important;
+	background-color: #332df7 !important;
+	border: none;
+}
+
+.nutritionButton:hover {
+	color: white !important;
+	background-color: #349c09 !important;
+	border: none;
+}
+
+.col-md-6 > .nutrition {
+	border-radius: 10px;
+}
+
+.donate-words {
+	
+}
+
+.bottom-donate {
+	justify-content: center;
+}
+
+.donate-words > h3 {
+	font-size: 4.0em;
+}
+
+.donate-words > p {
+	font-size: 1.8em;
+}
+
+.high-five{
+	width: 100%;
+	height: 100%;
+}
+
+.donate {
+	height: 400px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.support {
+	font-size: 140px;
+	color: black;
+	font-weight: 200;
+	padding-top: 220px;
+},
+
+@media (max-width: 992px){
+	.container > .PEA {
+	margin-bottom: 30px;
+	}
+	.footer {
+		height: 250px;
+	}
+
+	.col-xs-2 ul {
+		font-size: 14px;
+	}
+
+	.quad-pillars {
+		height: 315px;
+	}
+	.donate {
+	height: 300px;
+	}
+	.SLC-Only {
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px){
+	.container > .PEA {
+	margin-bottom: 0;
+	}
+
+	h1 {
+		color: #39404C;
+		margin: 0;
+		font-size: 60px;
+	}
+
+	.mountain {
+		background: linear-gradient(
+	      rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(/FTR/PhotoDump/mountainCROP768.jpeg) top center no-repeat;
+		height: 300px;
+		justify-content: flex-start;
+	}
+	.heading {
+		margin: 0 20px;
+	}
+	.col-xs-12 h2 {
+		padding-bottom: 0px;
+	}
+	.triad {
+		height: auto;
+	}
+	.pillars-headline {
+		margin-top: 20px;
+	}
+
+	.quad-pillars-padding {
+		padding: 0;
+	}
+
+	.quad-pillars {
+		margin: 20px auto;
+		width: 80%;
+	}
+	.donate {
+		width: 80%;
+		margin-bottom: 30px;
+	}
+	.donate-words > button {
+		flex-flow: row;
+	}
+}
+
+@media (max-width: 630px){
+	.quad-pillars {
+		margin: 20px auto;
+		width: 100%;
+	}
+	.SLC-Only {
+		height: 100px;
+	}
+	h4 {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 476px){
+	.SLC-Only {
+		height: 120px;
+	}
+}
+
+@media (max-width: 444px){
+	h1{
+		font-size: 45px;
+	}
+}
+
+@media (max-width: 340px){
+	.SLC-Only {
+		height: 140px;
+	}
+}
+
+
+
+
+
+*/

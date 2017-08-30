@@ -1,0 +1,4 @@
+.ui.menu.fixed {
+	display: flex !important;
+   justify-content: center !important;
+}

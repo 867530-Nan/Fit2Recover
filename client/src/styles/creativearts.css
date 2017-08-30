@@ -1,0 +1,269 @@
+.sarahPainting {
+	display: flex;
+	align-items: center;
+	background: url('../components/photodump/Art_Wall_Sitting.jpg') bottom center no-repeat;
+	height: 470px;
+	background-size: cover;
+    background-attachment: fixed;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.variousMedia {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 270px;
+}
+
+.variousMediaWords {
+	width: 85%;
+	font-weight: 300;
+	font-size: 2em;
+	text-align: center;
+	margin: 0 auto;
+	color: #3CB371;
+}
+
+.expression {
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 50px;
+	border-bottom: 1px solid lightgray;
+}
+
+.expressionList {
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 50px;
+	border-bottom: 1px solid lightgray;
+}
+
+.expressionList {
+	border-bottom: none;
+}
+
+.expressionWords {
+	flex: 0 1 65%;
+	padding: 0 30px;
+	font-size: 1.7em;
+	font-weight: 300;
+	color: #FF623F;
+	line-height: 1;
+}
+
+.expressionWordsEven {
+	flex: 0 1 65%;
+	padding: 0 30px;
+	font-size: 1.7em;
+	font-weight: 300;
+	color: #2EB962;
+	line-height: 1;
+}
+
+.expression > img {
+	height: 258px;
+	flex: 0 1 35%;
+	border-radius: 10px;
+}
+
+.riverWritingWords{
+	font-size: 1em;
+	font-weight: 500;
+}
+
+.bottomCreativeIcons {
+	display: flex !important;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.bottomSingleIcon:first-child {
+	margin: 50px 0px 100px 0px !important;
+}
+ 
+.bottomSingleIcon {
+	margin: 0px 0px 100px 0px !important;
+}
+
+.creativePicFTarts {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.FTaRts {
+	margin: 0 auto;
+	margin-top: 85px;
+}
+
+.bigLetterF {
+	color: #37BD1B;
+	font-family: 'Calligraffitti';
+	font-size: 140px;
+}
+.bigLetterT {
+	color: #E27B20;
+	font-family: 'Calligraffitti';
+	font-size: 140px;
+}
+.smallLetterA {
+	color: #6C1D97;
+	font-family: 'Calligraffitti';
+	font-size: 60px;
+}
+.bigLetterR {
+	color: #DB1F31;
+	font-family: 'Calligraffitti';
+	font-size: 140px;
+}
+.smallLetterT {
+	color: #6C1D97;
+	font-family: 'Calligraffitti';
+	font-size: 60px;
+}
+.smallLetterS {
+	color: #6C1D97;
+	font-family: 'Calligraffitti';
+	font-size: 60px;
+}
+
+.outdoorsPainting{
+	width: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+@media (max-width: 1224px) {
+	.creativityHead {
+		font-size: 3.5em !important;
+	}
+}
+
+@media (max-width: 1105px) {
+	.creativityHead {
+		font-size: 3em !important;
+	}
+}
+
+@media (max-width: 1010px) {
+	.recoveryWords {
+		font-size: 2em !important;
+	}
+	.expressionWords{
+		font-size: 1.4em;		
+	}
+	.expressionWordsEven{
+		font-size: 1.4em;
+	}
+}
+
+@media (max-width: 996px) {
+	.creativityHead {
+		font-size: 2.8em !important;
+	}
+	.variousMediaWords {
+		font-size: 1.6em;
+	}
+	.bigLetterF{
+		font-size: 100px
+	}
+	.bigLetterT{
+		font-size: 100px
+	}
+	.bigLetterR{
+		font-size: 100px
+	}
+	.smallLetterA{
+		font-size: 40px
+	}
+	.smallLetterT{
+		font-size: 40px
+	}
+	.smallLetterS{
+		font-size: 40px
+	}
+}
+
+@media (max-width: 900px) {
+	.creativityHead {
+		font-size: 2.5em !important;
+	}
+}
+
+@media (max-width: 850px) {
+	.artBoxWords {
+		font-size: 2.5em !important;
+	}
+}
+
+@media (max-width: 810px) {
+	.recoveryWords {
+		font-size: 1.7em !important;
+	}
+}
+
+@media (max-width: 806px) {
+	.creativityHead {
+		font-size: 2em !important;
+	}
+}
+
+@media (max-width: 768px){
+	.creativeTop {
+		height: 80px !important;
+	}
+	.artClass{
+		flex-direction: column !important;
+		height: 715px !important;
+	}
+	.variousMedia{
+		height: 200px !important;
+		border: none !important;
+	}
+	.variousMediaWords {
+		font-size: 1.3em;
+	}
+}
+
+
+@media (max-width: 657px) {
+	.creativityHead {
+		font-size: 1.5em !important;
+	}
+	.creativeArtsStoryWords {
+		font-size: 2em !important;
+	}
+}
+
+@media (max-width: 600px){
+	.variousMediaWords {
+		font-size: 1em;
+	}
+}
+
+@media (max-width: 486px) {
+	.creativeArtsStoryWords {
+		font-size: 1.7em !important;
+	}
+	.recoveryWords {
+		font-size: 1.4em !important;
+	}
+}
+
+@media (max-width: 386px) {
+	.creativeArtsStoryWords {
+		font-size: 1.8em !important;
+	}
+}
+
+@media (max-width: 400px){
+	.variousMediaWords {
+		font-size: .9em;
+	}
+}

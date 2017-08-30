@@ -1,0 +1,129 @@
+.nutritionTopPhoto {
+	background: url('../components/photodump/FoodToRecoverlogo.jpg') center no-repeat;
+	height: 440px;
+	display: flex;
+}
+
+.nourishingRecovery {
+	height: 150px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 10px;
+	text-align: center;
+	background: #00A65E;
+	color: #FAFAFA;
+}
+
+.program {
+	height: 325px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid red;
+	margin: 5px 0;
+	padding: 0 20px;
+}
+
+.programWordsh2,.programWordsh3 {
+	width: 85%;
+	font-weight: 300;
+	text-align: center;
+}
+
+.programWordsh2 {
+	font-size: 30px;
+	line-height: 1;
+}
+
+.programWordsh3 {
+	font-size: 24px;
+}
+
+.blogTitle {
+	text-align: center;
+	font-size: 24px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.singlePostEntire {
+	padding: 25px 0 !important;
+	display: flex !important;
+}
+
+.singlePostEntire:hover {
+	cursor: pointer;
+	background-color: white !important;
+	border-radius: 5px;
+}
+
+.singlePostContent {
+	width: 284px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.blogPic{
+	flex: 1 1 25% !important;
+}
+.blogContent {
+	flex: 1 1 75% !important;
+	align-self: center;
+	color: white;
+}
+
+@media (max-width: 1200px) {
+	.nutritionTopPhoto {
+	background: url('../components/photodump/FoodToRecoverlogo1200.jpeg') center no-repeat;
+	}
+}
+
+@media (max-width: 992px) {
+	.nutritionTopPhoto {
+	background: url('../components/photodump/FoodToRecoverlogo992.jpeg') center no-repeat;
+	height: 350px;
+	}
+}
+
+@media (max-width: 960px) {
+	.programWordsh2,.programWordsh3 {
+		width: 90%;
+		font-weight: 300;
+		text-align: center;
+	}
+}
+
+@media (max-width: 800px) {
+	.nutritionTopPhoto {
+	background: url('../components/photodump/FoodToRecoverlogo768.jpeg') center no-repeat;
+	height: 250px;
+	}
+}
+
+@media (max-width: 785px) {
+	.programWordsh2 {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.programWordsh2 {
+		font-size: 18px;
+	}
+	.programWordsh3 {
+
+	}
+}
+
+@media (max-width: 600px) {
+	.nutritionTopPhoto {
+	background: url('../components/photodump/FoodToRecoverlogo400.jpeg') center no-repeat;
+	height: 140px;
+	}
+}
