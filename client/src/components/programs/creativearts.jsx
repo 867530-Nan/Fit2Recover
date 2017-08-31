@@ -21,8 +21,6 @@ class CreativeArts extends Component {
 
 			<div className="creativeArtsStory" style={styles.creativeArtsStory}>
 				<div className="creativeArtsStoryWords" style={styles.creativeArtsStoryWords}>In order to remain clean and clear, a lake must have inflow and outflow.</div>
-					<Divider hidden />
-				<div className="recoveryWords" style={styles.recoveryWords}>Recovery is strengthened when a person takes ownership of their story and expresses it through different media.</div>
 			</div>
 
 			<div className="artClass" style={styles.artClass}>

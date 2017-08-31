@@ -28,6 +28,8 @@ class Gallery extends Component {
 			<Grid.Column computer={4} mobile={16} tablet={8} >
 				<div style={styles.instaPics}>
 					<Modal
+						closeOnDimmerClick={true}
+						closeOnDocumentClick={true}
 						style={styles.modalInsta}
 				    trigger={<Image className="singleInsta" src={pic.images.standard_resolution.url} />}
 				  >

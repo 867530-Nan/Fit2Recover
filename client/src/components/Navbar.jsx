@@ -10,9 +10,9 @@ class NavBar extends Component {
       
 		<Navbar collapseOnSelect fixedTop fluid>
     <Navbar.Header>
-      <Navbar.Brand >
+      <Navbar.Brand>
         <a href="/">
-          <img style={{height: '100%'}} src={Logo} alt="FTR Logo"/>
+          <img className="navbarImage" src={Logo} alt="FTR Logo"/>
         </a>
       </Navbar.Brand>
       <Navbar.Toggle />

@@ -9,6 +9,7 @@ import placeholder from '../photodump/placeholderImage.jpeg'
 import sportsPic from '../photodump/gallery2a.jpeg'
 import high from '../photodump/High-Fitness-Logo-1.jpg'
 import recovery from '../photodump/recovery_yoga.jpg'
+import capoeira from '../photodump/capoeira.PNG'
 
 class Fitness extends Component {
 	render() {
@@ -19,12 +20,12 @@ class Fitness extends Component {
 		<div className="introFitness" style={styles.introFitness}>
 			<div>
 				<h2 className="introHeader" style={styles.introHeader}>Fitness</h2>
-				<p className="introEnergy" style={styles.introEnergy}>Energy in the Room &amp; Vitality in the Body</p>
+				<p className="introEnergy" style={styles.introEnergy}>All inclusive community of discipline, humility, patience, and trust</p>
 			</div>
 		</div>
 
 		<div className="fitnessPhoto">
-			<a className="middleLink topLink" alt="link to google calendar of fitness courses" style={styles.middleLink} target="_blank" rel="noopener noreferrer" href="https://calendar.google.com/calendar/b/0/embed?mode=AGENDA&wkst=1&src=glcvge821o0rhi938tr32c9e5g@group.calendar.google.com&ctz=America/Denver">
+			<a className="middleLink topLink" alt="link to google calendar of fitness courses" style={styles.middleLink} target="_blank" rel="noopener noreferrer" href="/calendar">
 				<h4 className="middleLinkWords" style={styles.middleLinkWords}>Click Here for FTRs Class Calendar</h4>
 			</a>
 			<a href="#fitness-jump" className="glyphicon glyphicon-chevron-down" alt="downfacing chevron" style={styles.glyphiconChevronDown}> </a>
@@ -63,7 +64,7 @@ class Fitness extends Component {
 		</Grid>
 
 
-				<a className="middleLink" style={styles.middleLink} target="_blank" rel="noopener noreferrer" href="https://calendar.google.com/calendar/b/0/embed?mode=AGENDA&wkst=1&src=glcvge821o0rhi938tr32c9e5g@group.calendar.google.com&ctz=America/Denver">
+				<a className="middleLink" style={styles.middleLink} target="_blank" rel="noopener noreferrer" href="/calendar">
 					<h4 className="middleLinkWords" style={styles.middleLinkWords}>Click Here for FTR's Fitness Class Calendar</h4>
 				</a>
 
@@ -72,7 +73,7 @@ class Fitness extends Component {
 		<Grid columns={2} stackable className="programs programsBlack" style={styles.programs}>
 				<Grid.Column computer={6} tablet={8} mobile={16}>
 					<div className="programPic" style={styles.programPic}>
-						<Image className="bcPhoto img-responsive" style={styles.bcPhoto} src={placeholder} alt="Saturday Morning Bootcamp" />
+						<Image className="bcPhoto img-responsive" style={styles.bcPhoto} src={capoeira} alt="Saturday Morning Bootcamp" />
 					</div>
 				</Grid.Column>
 				<Grid.Column computer={10} tablet={8} mobile={16}>
@@ -98,7 +99,7 @@ class Fitness extends Component {
 		</Grid>
 
 
-			<a className="middleLink" style={styles.middleLink} target="_blank" rel="noopener noreferrer" href="https://calendar.google.com/calendar/b/0/embed?mode=AGENDA&wkst=1&src=glcvge821o0rhi938tr32c9e5g@group.calendar.google.com&ctz=America/Denver">
+			<a className="middleLink" style={styles.middleLink} target="_blank" rel="noopener noreferrer" href="/calendar">
 				<h4 className="middleLinkWords" style={styles.middleLinkWords}>Click Here for FTR's Fitness Class Calendar</h4>
 			</a>
 

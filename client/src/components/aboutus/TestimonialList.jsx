@@ -5,7 +5,7 @@ import '../../styles/singleTestimonial.css'
 const TestimonialList = ({ testimonials }) => (
 	<div className="testimonials">
 		{ testimonials.map( test => 
-		    <div>
+		    <div className="testimonialList">
 				<Item className="entireTestimonial" style={styles.entireTestimonial}>
 		      <Item.Content>
 		        <Item.Header as="h3" className="testAuthor" style={styles.testAuthor}>{test.author}</Item.Header>

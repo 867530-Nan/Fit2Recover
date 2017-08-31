@@ -17,10 +17,11 @@ class CommunityService extends Component {
 			<Grid.Column computer={4} mobile={16} tablet={8} >
 				<div style={styles.instaPics}>
 					<Modal
+						closeOnDocumentClick={true}
 						style={styles.modalInsta}
-				    trigger={<Image shape='circular' className="singleInsta" src={pic.images.standard_resolution.url} />}
+				    trigger={<Image className="singleInsta" src={pic.images.standard_resolution.url} />}
 				  >
-		      		<Image shape='circular' src={pic.images.standard_resolution.url} />
+		      		<Image src={pic.images.standard_resolution.url} />
 		      </Modal>
 		    </div>
 			</Grid.Column>

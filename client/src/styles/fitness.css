@@ -38,7 +38,7 @@ a.middleLink:hover {
 		font-size: 4em !important;
 	}
 	.introEnergy{
-		font-size: 2em !important;
+		font-size: 1.8em !important;
 	}
 }
 
@@ -74,17 +74,20 @@ a.middleLink:hover {
 	.evenClass {
 		order: 2 !important;
 	}
+	.introEnergy{
+		font-size: 1.6em !important;
+	}
+}
+
+@media (max-width: 560px) {
+	.introFitness{
+		height: 150px !important;
+	}
 }
 
 @media (max-width: 550px) {
-	.introFitness{
-		height: 100px !important;
-	}
 	.introHeader {
 		font-size: 3em !important;
-	}
-	.introEnergy{
-		font-size: 1.5em !important;
 	}
 }
 

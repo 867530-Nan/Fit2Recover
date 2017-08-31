@@ -3,7 +3,8 @@ import  {} from 'react-router-dom'
 import '../styles/home.css'
 import { Grid, Segment, Image } from 'semantic-ui-react'
 import Logo from './photodump/FTR-logo-hd-no-footer.png'
-import Logo768 from './photodump/FTR-logo-hdXSCROP.png'
+import Logo768 from './photodump/FTR-just-words.png'
+import Logo300 from './photodump/FTR-just-words300.png'
 import Mountain from './photodump/mountainCROP.jpeg'
 import donate from './photodump/July_2014_Bootcamp_CROP.jpeg'
  
@@ -23,6 +24,11 @@ class Home extends Component {
 				<div className="heading768" style={styles.heading}>
 					<Image src={ Logo768 } alt="FTR Logo" />
 				</div>
+
+				<div className="heading300" style={styles.heading}>
+					<Image src={ Logo300 } alt="FTR Logo" />
+				</div>
+
 			</div>
 
 			<div className="slcOnly" style={styles.slcOnly}> 

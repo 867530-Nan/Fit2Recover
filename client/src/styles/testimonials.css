@@ -27,6 +27,11 @@
 	background-color: red;
 }
 
+.testimonialsList {
+	display: flex;
+	justify-content: center;
+}
+
 @media(max-width: 820px) {
 	.otherPeopleWords {
 		font-size: 30px !important;
@@ -63,6 +68,18 @@
 	.otherPeopleWords {
 		font-size: 20px !important;
 		padding: 0 5px;
+	}
+}
+
+@media (max-width: 400px) {
+	.testTopPhoto{
+		background: linear-gradient(
+	      rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('../components/photodump/ladies-connecting375.jpeg') center center no-repeat;
+	}
+	.otherPeopleWords {
+		font-size: 20px !important;
+		width: 80% !important;
+		justify-content: center;
 	}
 }
 

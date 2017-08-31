@@ -40,7 +40,7 @@ class Testimonials extends Component {
 							<div className="otherPeopleWords" style={styles.otherPeopleWords}>Read about FTR experiences below, or add your own:</div>
 						</div>
 						<div className="writeTestimonialButton" style={styles.writeTestimonialButton} onClick={this.toggleVisibility}>Share Your Testimonial</div>
-						<Segment padded raised>
+						<Segment padded raised className="testimonialsList">
 							<TestimonialList testimonials={this.state.testimonials} />
 						</Segment>
 					</div>

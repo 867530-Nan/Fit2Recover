@@ -8,6 +8,11 @@
 	font-weight: 500;
 	}
 
+.testimonialList {
+	display: flex;
+	justify-content: center;
+}
+
 @media (max-width: 992px) {
 	.entireTestimonial{
 		padding: 0 60px;

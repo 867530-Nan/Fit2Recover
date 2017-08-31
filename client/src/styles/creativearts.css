@@ -229,6 +229,10 @@
 	.variousMediaWords {
 		font-size: 1.3em;
 	}
+	.sarahPainting {
+		background: url('../components/photodump/Art_Wall_Sitting_SUPERCROP.jpeg') bottom center no-repeat;
+		height: 350px;
+	}
 }
 
 
