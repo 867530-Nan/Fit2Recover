@@ -27,9 +27,9 @@
 	background-color: red;
 }
 
-.testimonialsList {
+.testimonialList {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 }
 
 @media(max-width: 820px) {

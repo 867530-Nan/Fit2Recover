@@ -35,13 +35,13 @@ class Philosophy extends Component {
 			</div>
 
 			<div className="pillarOverview" style={styles.pillarOverview}>
-				<p>Our physical fitness is measured by progress toward individually set goals. Whether in the gym or on the field, We are mutually-supportive and win every game, regardless of the final score. We meet around the community and stare down our challenges, together.</p>
+				<p>FTR seeks to bring balance to our lives through our four pillars: Nutrition, Community Service, Creative Arts, and Fitness. We accomplish this through group cooking classes, artistic endeavors, service outreach, and sports &amp; exercise.</p>
 
-				<p>Sport and exercise are balanced by creative and artistic endeavors. Many of us live on beats and raps, and there are lots of visual and word artists amongst us to round out our community. Some of our work will be shared on this website in the upcoming months.</p>
+				<p>Our overall well-being is measured by progress toward individually set goals. Whether in the gym, the kitchen, the studio, or the community, We are mutually-supportive and stare down our challenges, together.</p>
 			</div>
 
 			<div className="moreInfo" style={styles.moreInfo}>
-				<h4 className="moreInfoWords" style={styles.moreInfoWords}>For Membership Information Click <span className="philosophyMindBody" style={styles.philosophyMindBody}>MindBody</span> Below</h4>
+				<h4 className="moreInfoWords" style={styles.moreInfoWords}>Click <span className="philosophyMindBody" style={styles.philosophyMindBody}>MindBody</span> below to view our classes,<br/>Visitors Always Welcome!</h4>
 			</div>
 
 </div>				

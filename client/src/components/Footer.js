@@ -19,14 +19,14 @@ class Footer extends Component {
 			  </Grid.Column>
 			  <Grid.Column mobile={8} tablet={4} computer={4} className="lessPadding">
 					<div className="youtube actualSocial">
-					<Icon name="youtube play" className="youtubeLink"/>
-			      <a className="smallMB mindBodyA" target="_blank" rel="noopener noreferrer" link href="https://www.youtube.com/channel/UCkH-bLte_M7x8nIXVkCaMaQ"> YouTube </a>
+					<Icon name="instagram" className="youtubeLink"/>
+			      <a className="smallMB mindBodyA" target="_blank" rel="noopener noreferrer" link href="https://www.instagram.com/fit_2recover/?hl=en"> Instagram </a>
 			    </div>
 			    </Grid.Column>
 			  <Grid.Column mobile={8} tablet={4} computer={4} className="lessPadding">
 			    <div className="mindBody actualSocial">
 			    	<Image src={mindBody} className="smallMB mbWhite"/>
-			      <a className="smallMB mindBodyA" target="_blank" rel="noopener noreferrer" href="https://clients.mindbodyonline.com/classic/home?studioid=280495">MindBody</a>
+			      <a className="smallMB mindBodyA" target="_blank" rel="noopener noreferrer" href="https://clients.mindbodyonline.com/classic/ws?studioid=280495&stype=-7&sView=week&sLoc=0">MindBody</a>
 			    </div>
 			    </Grid.Column>
 			  <Grid.Column mobile={8} tablet={4} computer={4} className="lessPadding">

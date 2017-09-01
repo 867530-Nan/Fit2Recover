@@ -20,7 +20,7 @@ class CreativeArts extends Component {
 			<div className="sarahPainting" style={styles.sarahPainting}></div>
 
 			<div className="creativeArtsStory" style={styles.creativeArtsStory}>
-				<div className="creativeArtsStoryWords" style={styles.creativeArtsStoryWords}>In order to remain clean and clear, a lake must have inflow and outflow.</div>
+				<div className="creativeArtsStoryWords" style={styles.creativeArtsStoryWords}>Recovery is strengthened when a person takes ownership of their story and expresses it through different media.</div>
 			</div>
 
 			<div className="artClass" style={styles.artClass}>
@@ -54,7 +54,7 @@ class CreativeArts extends Component {
 
 				<div className="expression groupMural">
 					<img className="img-responsive"  src={groupMural} alt="Group Paint Night" />
-					<div className="expressionWordsEven"><span className="riverWritingWords">GroupPaint Night</span><br/>It's not just for wine drinkers anymore!  We offer one night of guided art making in an atmosphere where you can succeed and have a finished piece to be proud of.  Participants will work individually on a painting of the same composition.  </div>
+					<div className="expressionWordsEven"><span className="riverWritingWords">GroupPaint Nite</span><br/>It's not just for wine drinkers anymore!  We offer one night of guided art making in an atmosphere where you can succeed and have a finished piece to be proud of.  Participants will work individually on a painting of the same composition.  </div>
 				</div>
 
 				<Grid className="expressionList sketchbook">
@@ -72,7 +72,7 @@ class CreativeArts extends Component {
 						<List style={styles.creativeBottomList}>
 					    <List.Item className="bottomListIcon">
 					      <List.Header style={styles.quadTitle}>Community Service Art Making</List.Header>
-					      <List.Description style={styles.quadDescription}>At FTR we seek to carry our voices into the community! Artists at Fit To Recover have made large scale paintings as decoration for area businesses &amp; organizations</List.Description>
+					      <List.Description style={styles.quadDescription}>At FTR we seek to carry our voices into the community! Artists at Fit To Recover have made large scale paintings as decoration for area businesses &amp; organizations.</List.Description>
 					    </List.Item>
 
 					    <List.Item className="bottomListIcon">
@@ -99,7 +99,7 @@ class CreativeArts extends Component {
 			</div>
 
 			<div className="variousMedia" style={styles.variousMediaWords}>
-				<h2 className="variousMediaWords" style={styles.variousMediaWords}>The Creative Expression Pillar offers tools for authentic processing of life. Many addicts are bright and artistic, they just need an opportunity to devlop their voice. At Fit To Recover, we offer experiences in both visual and language arts. Pillar head Sarah Kappos graduated from the U of U with a degree in Art Education, and a burning desire to be of service. The mission of this pilar is to empower members and clients to use their voice and to cultivate mindful expression.</h2>
+				<h2 className="variousMediaWords" style={styles.variousMediaWords}>The Creative Expression Pillar offers tools for authentic processing of life. Many addicts are bright and artistic, they just need an opportunity to devlop their voice. By offering experiences in both visual and language arts, the mission of this pillar is to empower members and clients to use their voice and to cultivate mindful expression.</h2>
 			</div>
 
 </div>

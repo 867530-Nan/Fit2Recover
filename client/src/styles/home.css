@@ -33,6 +33,10 @@ a.nutritionButton:hover {
 	color: white !important;
 }
 
+.singlePad {
+	display: flex;
+}
+
 
 
 

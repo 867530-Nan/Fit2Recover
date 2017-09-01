@@ -35,7 +35,8 @@ class Home extends Component {
 				<h4 className="slcMap" style={styles.slcMAP}>Salt Lake City's only Gym and Community Center for those in Recovery&nbsp;::&nbsp;
 					<a
 						style={styles.mapButton} 	
-						target="_blank" rel="noopener noreferrer"  
+						target="_blank" 
+						rel="noopener noreferrer"  
 						className="map" 
 						color="red" 
 						href="https://www.google.com/maps/place/Fit+to+Recover/@40.7399488,-111.9142314,17z/data=!4m13!1m7!3m6!1s0x8752f4da86d2a85f:0x98c2d4e4a171bc13!2s789+W+1390+S,+Salt+Lake+City,+UT+84104!3b1!8m2!3d40.7392009!4d-111.9137379!3m4!1s0x8752f4da86ddc03f:0x24d4219acbd712ad!8m2!3d40.739265!4d-111.913712">
@@ -47,26 +48,27 @@ class Home extends Component {
 				<div className="pEA" style={styles.pEA}>
 					<Grid columns={15} centered divided>
 						<Grid.Row>
-							<Grid.Column className="firstPad" computer={5} tablet={5} mobile={15} >
+							<Grid.Column className="singlePad" computer={5} tablet={5} mobile={15} >
 								<div className="triad" style={styles.triad}>
 									<h3 className="pTitles" style={styles.pTitles}>Our Philosophy</h3>
 										<p className="pDesc" style={styles.pDesc}>We're in this together, and together each of us improves and supports each others' recovery.</p>
-										<a href="/philosophy" color="red" className="basic pButton" style={styles.learnMore}>Explore Our Philosophy</a>
+										<a href="/philosophy" target="_blank" rel="noopener noreferrer" color="red" className="basic pButton" style={styles.learnMore}>Explore Our Philosophy</a>
 								</div>
 							</Grid.Column>
-							<Grid.Column computer={5} tablet={5} mobile={15} >
+							<Grid.Column className="singlePad" computer={5} tablet={5} mobile={15} >
 								<div className="triad" style={styles.triad}>
 									<h3 className="pTitles" style={styles.pTitles}>Our Experience</h3>
 										<p className="pDesc" style={styles.pDesc}>A community space supporting each individual's efforts to feel better, do better, maintain recovery and acheive our goals.</p>
-										<a href="/aboutus" color="red" className="basic pButton" style={styles.learnMore}>Read Our Experiences</a>
+										<a href="/aboutus" target="_blank" rel="noopener noreferrer" color="red" className="basic pButton" style={styles.learnMore}>Read Our Experiences</a>
 								</div>
 							</Grid.Column>
-							<Grid.Column computer={5} tablet={5} mobile={15} >
+							<Grid.Column className="singlePad" computer={5} tablet={5} mobile={15} >
 								<div className="triad" style={styles.triad}>
 									<h3 className="pTitles" style={styles.pTitles}>Our Activites</h3>
 										<p className="pDesc" style={styles.pDesc}>Daily Activities, Monday through Sunday. Check our calendar to find those best for you!</p>
 										<a 
 											className="basic pButton"
+											target="_blank" rel="noopener noreferrer"
 											color="red" 
 											href="/calendar"
 											style={styles.learnMore}>View FTR's Calendar</a>
@@ -93,7 +95,7 @@ class Home extends Component {
 							<h3 className="qTitle" style={styles.qTitle}>Fitness</h3>
 							<p className="qDesc" style={styles.qDesc}>Passionate about fitness and an even more passionate for recovery, group exercise
 							classes create energy in the room and vitality in the body.</p>
-							<a href="fitness" style={styles.fitnessButton} className="fitnessButton">Explore Fitness</a>
+							<a href="/fitness" target="_blank" rel="noopener noreferrer" style={styles.fitnessButton} className="fitnessButton">Explore Fitness</a>
 						</div>
 					</Grid.Column>
 
@@ -106,7 +108,7 @@ class Home extends Component {
 										height="75" />
 								<h3 className="qTitle" style={styles.qTitle}>Creative Arts</h3>
 								<p className="qDesc" style={styles.qDesc}>Every person has a story. Recovery is strengthened when a person takes ownership of that story and expresses it through different media.</p>
-								<a href="/Programs/creativearts.html" style={styles.creativeButton} className="creativeButton">Explore Creative Arts</a>
+								<a href="/creativearts" target="_blank" rel="noopener noreferrer" style={styles.creativeButton} className="creativeButton">Explore Creative Arts</a>
 						</div>
 					</Grid.Column>
 				</Grid.Row>
@@ -121,7 +123,7 @@ class Home extends Component {
 										height="75" />
 								<h3 className="qTitle" style={styles.qTitle}>Community Service</h3>
 								<p className="qDesc" style={styles.qDesc}>Being selfless is be a big part of the recovery journey. Being of service allows us to step out of ourselves and our issues, and give back.</p>
-								<a href="/communityservice" style={styles.serviceButton} className="serviceButton">Explore Community Service</a>
+								<a href="/communityservice" target="_blank" rel="noopener noreferrer" style={styles.serviceButton} className="serviceButton">Explore Community Service</a>
 						</div>
 					</Grid.Column>
 
@@ -134,7 +136,7 @@ class Home extends Component {
 										height="75" />
 								<h3 className="qTitle" style={styles.qTitle}>Nutrition</h3>
 								<p className="qDesc" style={styles.qDesc}>We believe food has to be tasty, nutritious, and easy to prepare. We believe food is a center for both our community and for families.</p>
-								<a href="nutrition.html" style={styles.nutritionButton} className="nutritionButton">Explore Nutrition</a>
+								<a href="/nutrition" target="_blank" rel="noopener noreferrer" style={styles.nutritionButton} className="nutritionButton">Explore Nutrition</a>
 						</div>
 					</Grid.Column>
 				</Grid.Row>
@@ -142,7 +144,7 @@ class Home extends Component {
  
 			<div style={styles.donate}>
 				<div className="donateWords" style={styles.donateWords}>
-					<p>As a non-profit, community-center, and supportive environment, We're grateful to those willing and able to support us.</p>
+					<p>As a non-profit, community-center, and supportive environment, we're grateful to those willing and able to support us.</p>
 				</div>
 			</div>			
 		</div>
@@ -170,7 +172,7 @@ let styles = {
 				display: "flex",
 				alignItems: "center",
 				color: "black",
-				height: "9em",
+				height: "7em",
 				textAlign: "center",
 				justifyContent: "center",
 				borderBottom: "1px solid #E7E7E8",
@@ -213,7 +215,7 @@ let styles = {
 				fontSize: "16px"
 			},
 			pEA:{
-				height: "300px",
+				height: "250px",
 				display: "flex",
 				alignItems: "center",
 			},

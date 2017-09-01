@@ -44,7 +44,7 @@ class Fitness extends Component {
 					<div className="programDesc" style={styles.programDesc}>
 						<h2 className="classHeader" style={styles.classHeaderWhite}>Saturday Bootcamp</h2>
 						<h4 class="classLed" style={styles.classLedWhite}>Led by Ian Acker</h4>
-						<p className="classPara" style={styles.classParaWhite}>The Original Class.<br />Everyday Saturday morning at 10am. We do it all from body weight exercises to cardio, flexibility, and strength. In the warmer weather, we meet at Sugar House Park.  It doesn't matter whether you are in-shape or just getting started on your physical fitness. We're all there for each other and it is a great way to start the weekend. Come one, and come all!</p>
+						<p className="classPara" style={styles.classParaWhite}>The Original Class.<br />Every day Saturday morning at 10am. We do it all from body weight exercises to cardio, flexibility, and strength. In the warmer weather, we meet at Sugar House Park.  It doesn't matter whether you are in shape or just getting started on your physical fitness. We're all there for each other and it is a great way to start the weekend. Come one, and come all!</p>
 					</div>
 				</Grid.Column>
 		</Grid>
@@ -58,7 +58,7 @@ class Fitness extends Component {
 			<Grid.Column computer={10} tablet={8} mobile={16} className="evenClass" style={styles.evenClass}>
 				<div className="programDesc" style={styles.programDesc}>						
 					<h2 className="classHeader" style={styles.classHeader}>FTR Fitness</h2>
-					<p className="classPara" style={styles.classPara}>This class is for all levels, and the exercises change frequently. Exercises range from Kettlebells and Circuit Training, to strength &amp; conditioning. These classes are formatted to have a warm-up period of instruction, PRACTICE, then cool down and stretch. Come and learn with us.</p>
+					<p className="classPara" style={styles.classPara}>This class is for all levels, and the exercises change frequently. Exercises range from kettlebells and circuit training, to strength &amp; conditioning. These classes are formatted to have a warm-up period of instruction, PRACTICE, then cool down and stretch. Come and learn with us.</p>
 				</div>
 			</Grid.Column>
 		</Grid>
@@ -127,7 +127,7 @@ class Fitness extends Component {
 			<Grid.Column computer={10} tablet={8} mobile={16} className="evenClass" style={styles.evenClass}>
 				<div className="programDesc" style={styles.programDesc}>						
 					<h2 className="classHeader" style={styles.classHeader}>Team Sports</h2>
-					<p className="classPara" style={styles.classPara}>On the court or on the field, you'll find Fit To Recover teams focused on fun, camaraderie, and team spirit. Currently, we field teams in volleyball and softball, but the World Cup has us thinking that soccer might be next.<br />Open to players of all levels, our co-ed teams enjoy the challenges, and often enjoy a meal together after the game. Come join us!</p>
+					<p className="classPara" style={styles.classPara}>On the court or on the field, you'll find Fit To Recover teams focused on fun, camaraderie, and team spirit. Currently, we field teams in volleyball and softball, and we just added co-ed indoor soccer this season.<br />Open to players of all levels, our co-ed teams enjoy the challenges, and often enjoy a meal together after the game. Come join us!</p>
 				</div>
 			</Grid.Column>
 		</Grid>

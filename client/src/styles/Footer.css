@@ -54,7 +54,7 @@ i.icon.facebook, i.icon.youtube {
 }
 
 .youtube.actualSocial {
-	background-color: #bb0000;
+	background: linear-gradient(left, #405de6 0%, #fd1d1d 50%,#ffdc80 100%);
 	height: 36px;
 	width: 118px;
 	display: flex;
@@ -65,13 +65,14 @@ i.icon.facebook, i.icon.youtube {
 	padding: 0 20px;
 }
 
+
 .youtube.actualSocial:hover {
-	background-color: #990000;
+  background:linear-gradient(left, #ffdc80 0%, #fd1d1d 50%,#405de6 100%);
 }
 
 .youtubeLink {
 	color: white;
-	font-size: 25px;
+	font-size: 20px !important;
 }
 
 .mindBody.actualSocial {

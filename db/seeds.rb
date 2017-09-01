@@ -1,6 +1,48 @@
 
 Testimonial.create!([
 	{
+		author: 'Meg Tom',
+		date: "June 6, 2017",
+		subject: '',
+		body: "An amazing asset to the community. Ian is one of a kind, and all the staff are super nice. I don't do a lot of exercising but I love the classes/groups on recovery, painting, writing, and nutrition. I recommend looking into this place to pretty much everyone I meet that's in recovery."
+	},
+	{
+		author: 'Carla Mandingueira',
+		date: "May 4, 2017",
+		subject: '',
+		body: "FTR is an amazing community. Excellent space, incredible teachers and inspiring work!!"
+	},
+	{
+	author: 'Jacob W Seitz-Sampson',
+	date: 'April 4, 2017',
+	subject: '',
+	body: "Physical fitness and sobriety! FTR has provided a safe and supportive environment in which I have transformed my life for the better!"
+	},
+	{
+		author: 'Nathan Peck',
+		date: "March 31, 2017",
+		subject: '',
+		body: "Best substance abuse recovery gym and community center in the US! Great trainers, awesome staff, and fabulous community members. Join us!"
+	},
+	{
+		author: 'Amy Jefferson',
+		date: "March 30, 2017",
+		subject: '',
+		body: "Absolutely amazing. The connection, the community, the workouts, the nutrition, the yoga, the meetings. I cannot imagine not having this in my life, as it has helped me progress in ways I was void of before. Thank you FTR!!"
+	},
+	{
+	author: 'Tim Pan',
+	date: 'March 30, 2017',
+	subject: '',
+	body: "Pros: No judgement, kind atmosphere. Qualified and cerified trainers. Variety of workout methods and classes. Affordable non-profit that offers community service activities. Cons: Only open during scheduled classes."
+	},
+	{
+	author: 'Eric McQuisten',
+	date: 'March 30, 2017',
+	subject: '',
+	body: "Talk about the perfect place! More then a gym, but a 'safe space' to change your life for the better, in both body and mind! And push yourself to a higher level of excellence then you thought possible!"
+	},
+	{
 	author: 'Andrew T. Roberts',
 	date: 'December 10, 2016',
 	subject: '',
@@ -23,7 +65,6 @@ Testimonial.create!([
 	date: 'March 11, 2014',
 	subject: '',
 	body: "Fit to Recover has been an essential part of my recovery. Sobriety to me is continuously trying to make my quality of life the best it can be. Improving and growing physically, mentally, emotionally, and spiritually. Fit to Recover helps me do just that. I get to be a part of this incredible group of people. I get to run with them, or work out with them, on Saturday mornings at the boot camp. I get to talk with them and meet new people in the recovery community. I get to be a part of something and fit in somewhere. I get to be vulnerable and get out of my comfort zone and push myself. Fit to Recover is a community that we (in recovery) need and I am so grateful that Ian and Charlie have started this. Thank you guys for helping me better myself!"
-	
 	},
 	{
 	author: 'Rachel',
