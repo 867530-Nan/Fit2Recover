@@ -12,6 +12,10 @@ Rails.application.routes.draw do
   end
 
   namespace :api do
+    get 'instagram/home'
+  end
+
+  namespace :api do
     resources :testimonials
   end
 

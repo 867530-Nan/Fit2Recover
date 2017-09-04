@@ -32,7 +32,7 @@ class Footer extends Component {
 			  <Grid.Column mobile={8} tablet={4} computer={4} className="lessPadding">
 			    <div className="paypal actualSocial">
 					<Icon name="paypal" className="paypalLink"/>
-			      <a className="smallMB mindBodyA" target="_blank" rel="noopener noreferrer" link href="https://www.youtube.com/channel/UCkH-bLte_M7x8nIXVkCaMaQ"> Donate </a>
+			      <a className="smallMB mindBodyA" target="_blank" rel="noopener noreferrer" link href="https://clients.mindbodyonline.com/classic/ws?studioid=280495&stype=40&prodId=100"> Donate </a>
 			    </div>
 			   </Grid.Column>
 			   </Grid>

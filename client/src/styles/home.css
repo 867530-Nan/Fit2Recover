@@ -7,7 +7,7 @@
 }
 .heading300 {
 	display: none;
-}
+} 
 a.creativeButton:hover {
 	background-color: #332df7;
 	color: white !important;
@@ -37,10 +37,106 @@ a.nutritionButton:hover {
 	display: flex;
 }
 
+.homeSingleInsta {
+	width: 60%;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+.homeNewsletterLink {
+	margin-bottom: 20px;
+}
+
+.homeMonthlyNewsletter {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	opacity: 1.0;
+	height: 450px;
+	background-color: #467EFF;
+}
+
+.homeMonthlyNewsletter:hover {
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+.homeMonth {
+	font-size: 2em;
+	margin: 0px !important;
+}
+
+.homeEachOne {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.homeNewsletterPhoto {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.homeInsta {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 450px;
+	background-color: #FF3939;
+}
+
+.homeInsta:hover {
+	cursor: pointer;
+	background-color: #FF6464;
+}
+
+.homeInstaTitle {
+	align-self: center;
+	font-size: 2em;
+	color: white;
+	margin-top: 10px;
+}
+
+.instaNewsBar {
+	height: 470px;
+}
 
 
 
 
+@media (max-width: 992px) {
+	.instaNewsBar {
+		height: 400px !important;
+	}
+	.homeInsta {
+		height: 400px !important;
+	}
+	.homeMonthlyNewsletter {
+		height: 400px !important;
+	}
+}
+
+@media (max-width: 880px) {
+	.instaNewsBar {
+		height: 350px !important;
+	}
+	.homeInsta {
+		height: 350px !important;
+	}
+	.homeMonthlyNewsletter {
+		height: 350px !important;
+	}
+	.pEA {
+		height: 300px !important;
+	}
+	.homeMonth {
+		font-size: 1.7em !important;
+	}
+	.homeInstaTitle {
+		font-size: 1.7em !important;
+	}
+}
 
 
 @media (max-width: 768px){
@@ -93,6 +189,18 @@ a.nutritionButton:hover {
 		font-size: 24px !important;
 		padding-bottom: 10px;
 	}
+	.instaNewsBar {
+		height: 760px !important;
+	}
+	.homeSingleInsta {
+		width: 40% !important;
+	}
+	.homeNewsletterPhoto {
+		width: 40% !important;
+	}
+	.homeMonthlyNewsletter {
+		height: 380px !important;
+	}
 }
 
 @media (max-width: 700px){
@@ -119,6 +227,15 @@ a.nutritionButton:hover {
 	}
 	.donateWords {
 		font-size: 20px !important;
+	}
+	.homeSingleInsta {
+		width: 50% !important;
+	}
+	.homeNewsletterPhoto {
+		width: 50% !important;
+	}
+	.homeMonthlyNewsletter {
+		height: 350px !important;
 	}
 }
 
@@ -150,7 +267,16 @@ a.nutritionButton:hover {
 }
 
 @media (max-width: 401px){
-.donateWords {
+	.donateWords {
 		font-size: 16px !important;
+	}
+	.homeInsta {
+		height: 270px !important;
+	}
+	.homeMonthlyNewsletter {
+		height: 270px !important;
+	}
+	.instaNewsBar {
+		height: 580px !important;
 	}
 }

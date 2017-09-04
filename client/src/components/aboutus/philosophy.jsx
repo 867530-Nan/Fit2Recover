@@ -41,7 +41,7 @@ class Philosophy extends Component {
 			</div>
 
 			<div className="moreInfo" style={styles.moreInfo}>
-				<h4 className="moreInfoWords" style={styles.moreInfoWords}>Click <span className="philosophyMindBody" style={styles.philosophyMindBody}>MindBody</span> below to view our classes,<br/>Visitors Always Welcome!</h4>
+				<h4 className="moreInfoWords" style={styles.moreInfoWords}>For Membership Information Click <span className="philosophyMindBody" style={styles.philosophyMindBody}>MindBody</span> Below</h4>
 			</div>
 
 </div>				
