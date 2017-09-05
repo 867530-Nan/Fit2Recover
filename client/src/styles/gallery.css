@@ -39,8 +39,6 @@ a.mediaCard{
 }
 
 .mediaCardContent:hover {
-	background-color: #FFDCDA;
-	border-radius: 10px;
 	cursor: pointer;
 }
 
@@ -81,6 +79,15 @@ a.instaTitle {
 		height: 300px !important;
 		width: 300px !important;
 		margin: 0 auto;
+	}
+}
+
+@media (max-width: 768px) {
+	.modalInsta {
+		margin-top: -150px !important;
+		height: 300px !important;
+		width: 300px !important;
+		margin-left: -150px !important;
 	}
 }
 

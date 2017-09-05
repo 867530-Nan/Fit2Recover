@@ -47,7 +47,7 @@ class Nutrition extends Component {
 							<div className="programWordsh3">Together, we learn about the importance of proper nutrition in our daily lives, how to eat mindfully, and how to create our own healthy meals.</div>
 						</div>
 
-							<a className="nutritionClassLink" href="https://clients.mindbodyonline.com/classic/ws?studioid=280495&stype=-7&sVT=23&sView=week&sLoc=0" target="_blank" ref="noopener noreferrer" >
+							<a  rel="noopener noreferrer" className="nutritionClassLink" href="https://clients.mindbodyonline.com/classic/ws?studioid=280495&stype=-7&sVT=23&sView=week&sLoc=0" target="_blank" >
 							Click here to Sign Up for Classes </a>
 
 				<Grid stackable style={{margin: '0 30px'}}>
@@ -63,7 +63,7 @@ class Nutrition extends Component {
 					        Have you ever seen broccoli grow? Ever wondered how many different dishes you can make with eggs? Looking for healthy and quick recipes on a budget? Join us for a cooking class and use garden-fresh ingredients from our Food to Recover garden, learn new techniques and combinations in the kitchen, and gain confidence in preparing your own food!
 					      </Card.Description>
 					      <Card.Description>
-					        Did you know doctors are now starting to <a target="_blank" ref="noopener noreferer" href="https://www.google.com/url?q=https%3A%2F%2Fwww.hsph.harvard.edu%2Fnews%2Fhsph-in-the-news%2Fdoctors-patients-healthy-cooking%2F&sa=D&sntz=1&usg=AFQjCNEuKBBiFjInxXBNcDwmPlbbAEsoVQ">prescribe cooking</a> classes for your health?
+					        Did you know doctors are now starting to <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/url?q=https%3A%2F%2Fwww.hsph.harvard.edu%2Fnews%2Fhsph-in-the-news%2Fdoctors-patients-healthy-cooking%2F&sa=D&sntz=1&usg=AFQjCNEuKBBiFjInxXBNcDwmPlbbAEsoVQ">prescribe cooking</a> classes for your health?
 					      </Card.Description>
 					      <Card.Description>
 					        Come and connect with your food and learn how it can nourish your body, mind, and spirit in our FTR Kitchen!

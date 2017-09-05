@@ -1,4 +1,9 @@
 .boardCardGroup {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 20px !important;
+}
+
+.singleBoardCard {
+	width: 190px !important;
 }

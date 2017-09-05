@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import { Card, Button, Grid, Image, Modal } from 'semantic-ui-react'
+import {  } from 'react-router-dom'
+import { Grid, Image, Modal } from 'semantic-ui-react'
 import axios from 'axios'
 import '../../styles/gallery.css'
 import pictureOne from '../photodump/gallery1.jpeg'
@@ -28,8 +28,10 @@ class Gallery extends Component {
 			<Grid.Column computer={4} mobile={16} tablet={8} >
 				<div style={styles.instaPics}>
 					<Modal
+						closeIcon={true}
 						closeOnDimmerClick={true}
 						closeOnDocumentClick={true}
+						className="modalInsta"
 						style={styles.modalInsta}
 				    trigger={<Image className="singleInsta" src={pic.images.standard_resolution.url} />}
 				  >
@@ -45,7 +47,6 @@ class Gallery extends Component {
 			<div className="Background">
 						
 			<div className="mediaTopPadding" style={styles.mediaTopPadding} />
-
 				<div className="title">
 						<h1 className="galleryTitle">Fit to Recover Gallery:</h1>
 						<h3 className="galleryDesc">On the News, Around the Gym, and In the Community</h3>
@@ -120,7 +121,7 @@ class Gallery extends Component {
 		</Grid>
 
 					<div>
-						<a className="instaTitle" target="_blank" rel="noopener referrer" href="https://www.instagram.com/fit_2recover/?hl=en">
+						<a className="instaTitle" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/fit_2recover/?hl=en">
 							-- #teamFTR --
 						</a>
 					</div>

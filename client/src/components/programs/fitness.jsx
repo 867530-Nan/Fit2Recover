@@ -3,13 +3,11 @@ import {  } from 'react-router-dom'
 import { Grid, Image } from 'semantic-ui-react'
 import '../../styles/fitness.css'
 import bootcamp from '../photodump/BC-quarter-raiseCROP.jpeg'
-import kettlebell from '../photodump/pushup-kettlebell.png'
-import circuit from '../photodump/Circuit-Training.png'
-import placeholder from '../photodump/placeholderImage.jpeg'
-import sportsPic from '../photodump/gallery2a.jpeg'
+import sportsPic from '../photodump/teamSports.jpeg'
 import high from '../photodump/High-Fitness-Logo-1.jpg'
 import recovery from '../photodump/recovery_yoga.jpg'
 import capoeira from '../photodump/capoeira.PNG'
+import ftrFitness from '../photodump/ftrFitness.png'
 
 class Fitness extends Component {
 	render() {
@@ -52,7 +50,7 @@ class Fitness extends Component {
 		<Grid columns={2} stackable className="programs" style={styles.programs}>
 			<Grid.Column computer={6} tablet={8} mobile={16} className="oddClass" style={styles.oddClass}>
 				<div className="programPic" style={styles.programPic}>
-					<Image className="img-responsive" style={styles.bcPhoto} src={placeholder} alt="Placeholder" />
+					<Image className="img-responsive" style={styles.bcPhoto} src={ftrFitness} alt="Placeholder" />
 				</div>
 			</Grid.Column>
 			<Grid.Column computer={10} tablet={8} mobile={16} className="evenClass" style={styles.evenClass}>

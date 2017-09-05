@@ -53,11 +53,11 @@ a.nutritionButton:hover {
 	justify-content: space-around;
 	opacity: 1.0;
 	height: 450px;
-	background-color: #467EFF;
+	border-radius: 10px 0 0 10px;
 }
 
 .homeMonthlyNewsletter:hover {
-	opacity: 0.9;
+	background-color: #6075AB;
 	cursor: pointer;
 }
 
@@ -70,12 +70,13 @@ a.nutritionButton:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: white;
+	color: black;
 }
 
 .homeNewsletterPhoto {
-	width: 60%;
+	width: 56%;
 	margin: 0 auto;
+	border-radius: 10px;
 }
 
 .homeInsta {
@@ -83,7 +84,7 @@ a.nutritionButton:hover {
 	flex-direction: column;
 	justify-content: space-around;
 	height: 450px;
-	background-color: #FF3939;
+	border-radius: 0 10px 10px 0;
 }
 
 .homeInsta:hover {
@@ -94,7 +95,7 @@ a.nutritionButton:hover {
 .homeInstaTitle {
 	align-self: center;
 	font-size: 2em;
-	color: white;
+	color: black;
 	margin-top: 10px;
 }
 
@@ -200,6 +201,9 @@ a.nutritionButton:hover {
 	}
 	.homeMonthlyNewsletter {
 		height: 380px !important;
+	}
+	.homeMonthlyNewsletter.homeInsta {
+		border-radius: 0px !important;
 	}
 }
 

@@ -76,6 +76,23 @@
 	font-weight: 500;
 }
 
+
+.creativeCalendarButtonWords {
+	height: 50px;
+  background-color: #7C4EAB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+}
+
+.creativeCalendarButtonWords:hover{
+	color: #7C4EAB !important;
+	border: 1px #7C4EAB solid !important;
+	background-color: white !important;
+}
+
 .bottomCreativeIcons {
 	display: flex !important;
 	flex-direction: column;
@@ -251,6 +268,12 @@
 	}
 }
 
+@media (max-width: 500px) {
+	.creativeCalendarButtonWords {
+		font-size: 18px !important;
+	}
+}
+
 @media (max-width: 486px) {
 	.creativeArtsStoryWords {
 		font-size: 1.7em !important;
@@ -263,6 +286,9 @@
 @media (max-width: 386px) {
 	.creativeArtsStoryWords {
 		font-size: 1.8em !important;
+	}
+	.creativeCalendarButtonWords {
+		font-size: 14px !important;
 	}
 }
 

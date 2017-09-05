@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {  } from 'react-router-dom'
 import '../../styles/creativearts.css'
-import { Divider, List, Grid } from 'semantic-ui-react'
+import { List, Grid } from 'semantic-ui-react'
 import riverWriting from '../photodump/creative-writing.png'
 import groupMural from '../photodump/guys-paintings.png'
 import outdoors from '../photodump/outdoorsPainting.png'
@@ -22,6 +22,11 @@ class CreativeArts extends Component {
 			<div className="creativeArtsStory" style={styles.creativeArtsStory}>
 				<div className="creativeArtsStoryWords" style={styles.creativeArtsStoryWords}>Recovery is strengthened when a person takes ownership of their story and expresses it through different media.</div>
 			</div>
+
+			<a className="creativeCalendarButton" target="_blank" rel="noopener noreferrer" href="https://clients.mindbodyonline.com/classic/ws?studioid=280495&stype=-7&sVT=18&sView=week&sLoc=0">
+				<div className="creativeCalendarButtonWords">Click here for the Creative Arts class calendar</div>
+			</a>
+
 
 			<div className="artClass" style={styles.artClass}>
 				<div className="artBox music" style={styles.artBox}>
@@ -56,6 +61,10 @@ class CreativeArts extends Component {
 					<img className="img-responsive"  src={groupMural} alt="Group Paint Night" />
 					<div className="expressionWordsEven"><span className="riverWritingWords">GroupPaint Nite</span><br/>It's not just for wine drinkers anymore!  We offer one night of guided art making in an atmosphere where you can succeed and have a finished piece to be proud of.  Participants will work individually on a painting of the same composition.  </div>
 				</div>
+
+				<a className="creativeCalendarButton" target="_blank" rel="noopener noreferrer" href="https://clients.mindbodyonline.com/classic/ws?studioid=280495&stype=-7&sVT=18&sView=week&sLoc=0">
+					<div className="creativeCalendarButtonWords">Click here for the Creative Arts class calendar</div>
+				</a>
 
 				<Grid className="expressionList sketchbook">
 					<Grid.Column computer={2} tablet={2}>
@@ -109,7 +118,7 @@ class CreativeArts extends Component {
 
 const styles = {
 	topCreativePadding: {
-		paddingTop: '65px',
+		paddingTop: '55px',
 	},
 	creativeTop: {
 		display: 'flex',
@@ -129,7 +138,7 @@ const styles = {
 		display: 'flex',
 		flexDirection: 'column',
 		justifyContent: 'center',
-		height: '200px',
+		height: '150px',
 	},
 	creativeArtsStoryWords:{
 		width: '84%',
@@ -139,7 +148,6 @@ const styles = {
 		margin: '0 auto',
 		color: '#007FFF',
 		lineHeight: 1,
-		marginBottom: '30px',
 	},
 	recoveryWords:{
 		width: '84%',

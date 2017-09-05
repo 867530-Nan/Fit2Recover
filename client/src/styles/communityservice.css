@@ -1,15 +1,14 @@
 .communityServiceHeaderPhoto {
 	background: linear-gradient(
-	      rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1)), url('../components/photodump/circle_of_life.jpg') top no-repeat;
-		background-size: cover;
+	      rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1)), url('../components/photodump/groupPhoto.jpeg') top no-repeat;
     background-attachment: fixed;
-	height: 600px;
+	height: 500px;
 	display: flex;
 	flex-direction: column;
 }
 
 .communityServiceText{
-	padding-top: 70px;
+	padding-top: 15px;
 }
 
 .singleInsta {
@@ -98,6 +97,10 @@
 	color: white;
 }
 
+.serviceTopPadding {
+	padding-top: 55px;
+}
+
 .whatWeDoText {
 	margin: auto 0;
 	text-align: center;
@@ -145,6 +148,8 @@
 		font-size: 24px;
 	}
 	.communityServiceHeaderPhoto {
+		background: linear-gradient(
+	      rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1)), url('../components/photodump/groupPhoto600PNG.png') top no-repeat;
 		height: 400px;
 	}
 	.serviceMeansText{
@@ -186,6 +191,10 @@
 		padding: 60px 0;
 		font-size: 25px;
 	}
+	.communityServiceHeaderPhoto {
+		background: linear-gradient(
+	      rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1)), url('../components/photodump/groupPhoto450.jpeg') top no-repeat;
+	}
 }
 
 @media (max-width: 550px) {
@@ -204,6 +213,17 @@
 	.alwaysHappening {
 		font-size: 22px;
 	}
+	.communityServiceHeaderPhoto {
+		background: linear-gradient(
+	      rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1)), url('../components/photodump/groupPhoto400.jpeg') top no-repeat;
+		height: 350px;
+	}
+	.communityServiceHeaderShort {
+		font-size: 20px;
+	}
+	.communityServiceHeaderShort {
+		margin-bottom: 20px !important;
+	}
 }
 
 @media (max-width: 435px) {
@@ -221,6 +241,7 @@
 	}
 	.communityServiceHeaderTitle{
 		font-size: 26px !important;
+		margin-bottom: 10px;
 	}
 	.communityServiceHeaderShort {
 		font-size: 17px;
@@ -231,6 +252,17 @@
 	.alwaysHappening {
 		font-size: 18px;
 		padding: 0px 20px !important;
+	}
+	.communityServiceHeaderPhoto {
+		background: linear-gradient(
+	      rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1)), url('../components/photodump/groupPhoto300.jpeg') top no-repeat;
+		height: 260px;
+	}
+}
+
+@media (max-width: 375px) {
+	.communityServiceHeaderShort {
+		font-size: 14px;
 	}
 }
 

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import  {} from 'react-router-dom'
 import '../styles/home.css'
 import axios from 'axios'
-import { Grid, Segment, Image, Modal, Icon } from 'semantic-ui-react'
+import { Grid, Segment, Image, Icon } from 'semantic-ui-react'
 import Logo from './photodump/FTR-logo-hd-no-footer.png'
 import Logo768 from './photodump/FTR-just-words.png'
 import Logo300 from './photodump/FTR-just-words300.png'
@@ -22,19 +22,12 @@ class Home extends Component {
 	displayImages = () => {
 		return this.state.photos.map( pic => 
 			<Grid.Column computer={4} mobile={16} tablet={8} >
-				<a href="https://www.instagram.com/fit_2recover/?hl=en" className="homeInsta">
+				<a href="https://www.instagram.com/fit_2recover/?hl=en" target="_blank" rel="noopener noreferrer" className="homeInsta">
 					<div className="homeInstaTitle">
 						Follow Us @fit_2recover
 							<Icon name="instagram" />
 					</div>
-					<Modal
-						closeOnDimmerClick={true}
-						closeOnDocumentClick={true}
-						style={styles.modalInsta}
-				    trigger={<Image className="homeSingleInsta" src={pic.images.standard_resolution.url} />}
-				  >
-		      		<Image circular src={pic.images.standard_resolution.url} />
-		      </Modal>
+					<Image className="homeSingleInsta" src={pic.images.standard_resolution.url} />
 		    </a>
 			</Grid.Column>
 		)
@@ -88,7 +81,7 @@ class Home extends Component {
 								<div className="triad" style={styles.triad}>
 									<h3 className="pTitles" style={styles.pTitles}>Our Experience</h3>
 										<p className="pDesc" style={styles.pDesc}>A community space supporting each individual's efforts to feel better, do better, maintain recovery and acheive our goals.</p>
-										<a href="/aboutus" target="_blank" rel="noopener noreferrer" color="red" className="basic pButton" style={styles.learnMore}>Read Our Experiences</a>
+										<a href="/philosophy" target="_blank" rel="noopener noreferrer" color="red" className="basic pButton" style={styles.learnMore}>Read Our Experiences</a>
 								</div>
 							</Grid.Column>
 							<Grid.Column className="singlePad" computer={5} tablet={5} mobile={15} >

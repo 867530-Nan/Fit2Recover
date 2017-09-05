@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import { } from 'react-router-dom'
 import '../styles/calendar.css'
 
 class Calendar extends Component {
@@ -14,6 +14,7 @@ class Calendar extends Component {
 								style={{border: '0'}}
 								width="800" 
 								height="700" 
+								title="FTR Class Calendar"
 								frameborder="0" 
 								scrolling="no">
 				</iframe>

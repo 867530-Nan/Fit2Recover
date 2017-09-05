@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {  } from 'react-router-dom'
 import '../../styles/communityservice.css'
 import axios from 'axios'
-import { Card, Button, Grid, Image, Modal, Icon } from 'semantic-ui-react'
+import { Grid, Image, Modal, Icon } from 'semantic-ui-react'
 
 class CommunityService extends Component {
 	state = { photos: [] }
@@ -32,7 +32,7 @@ class CommunityService extends Component {
 	render() {
 		return (
 <div>
-		<div style={{paddingTop: '55px'}}/>
+		<div className="serviceTopPadding" />
 
 		<div className="communityServiceHeaderPhoto">
 			<div className="communityServiceText">	

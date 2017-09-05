@@ -21,6 +21,7 @@ class Board extends Component {
 		<Card.Group className="boardCardGroup" stye={styles.boardCardGroup}>
 
 		  <Card 
+		  	className="singleBoardCard"
 				color="pink"
 		    image={Ian}
 		    header='Martha Macomber'
@@ -29,6 +30,7 @@ class Board extends Component {
 		  />
 
 		  <Card
+		  	className="singleBoardCard"
 		  	color="orange"
 		    image={Jennifer}
 		    header='Jennifer Carlson'
@@ -37,6 +39,7 @@ class Board extends Component {
 		  />
 
 			<Card 
+				className="singleBoardCard"
 				color="red"
 		    image={John}
 		    header='John Parrish'
@@ -45,6 +48,7 @@ class Board extends Component {
 		  />
 
 		  <Card
+		  	className="singleBoardCard"
 		  	color="yellow"
 		    image={Doug}
 		    header='Doug McNeil'
@@ -53,6 +57,7 @@ class Board extends Component {
 		  />
 
 		  <Card
+		  	className="singleBoardCard"
 		  	color="green"
 		    image={Steve}
 		    header='Stephen Acker'
@@ -61,6 +66,7 @@ class Board extends Component {
 		  />
 
 		  <Card
+		  	className="singleBoardCard"
 		  	color="teal"
 		    image={Kathleen}
 		    header='Kathleen Brachter'

@@ -3,6 +3,7 @@ import { Image, Icon, Grid } from 'semantic-ui-react'
 import { } from 'react-router-dom'
 import '../styles/Footer.css'
 import mindBody from './photodump/mindBodyWhite.png'
+import paypal from './photodump/paypalDonate.png'
 
 
 class Footer extends Component {
@@ -10,32 +11,36 @@ class Footer extends Component {
     return(
 <div className="footerWide">
 			<div className="socialLinks">
-			<Grid columns={16}>
-				<Grid.Column mobile={8} tablet={4} computer={4} className="lessPadding">
-			    <div className="facebook actualSocial">
-			    	<Icon name="facebook square" className="fbLink"/>
-			      <a className="smallMB mindBodyA" target="_blank" rel="noopener noreferrer" link href="https://www.facebook.com/TeamFTR1/"> Facebook</a>
-			    </div>
-			  </Grid.Column>
-			  <Grid.Column mobile={8} tablet={4} computer={4} className="lessPadding">
-					<div className="youtube actualSocial">
-					<Icon name="instagram" className="youtubeLink"/>
-			      <a className="smallMB mindBodyA" target="_blank" rel="noopener noreferrer" link href="https://www.instagram.com/fit_2recover/?hl=en"> Instagram </a>
-			    </div>
-			    </Grid.Column>
-			  <Grid.Column mobile={8} tablet={4} computer={4} className="lessPadding">
-			    <div className="mindBody actualSocial">
-			    	<Image src={mindBody} className="smallMB mbWhite"/>
-			      <a className="smallMB mindBodyA" target="_blank" rel="noopener noreferrer" href="https://clients.mindbodyonline.com/classic/ws?studioid=280495&stype=-7&sView=week&sLoc=0">MindBody</a>
-			    </div>
-			    </Grid.Column>
-			  <Grid.Column mobile={8} tablet={4} computer={4} className="lessPadding">
-			    <div className="paypal actualSocial">
-					<Icon name="paypal" className="paypalLink"/>
-			      <a className="smallMB mindBodyA" target="_blank" rel="noopener noreferrer" link href="https://clients.mindbodyonline.com/classic/ws?studioid=280495&stype=40&prodId=100"> Donate </a>
-			    </div>
-			   </Grid.Column>
-			   </Grid>
+				<Grid columns={16}>
+					<Grid.Column mobile={8} tablet={4} computer={4} className="lessPadding">
+				    <div className="facebook actualSocial">
+				    	<Icon name="facebook square" className="fbLink"/>
+				      <a className="smallMB mindBodyA" target="_blank" rel="noopener noreferrer" link href="https://www.facebook.com/TeamFTR1/"> Facebook</a>
+				    </div>
+				  </Grid.Column>
+				  <Grid.Column mobile={8} tablet={4} computer={4} className="lessPadding">
+						<div className="youtube actualSocial">
+						<Icon name="instagram" className="youtubeLink"/>
+				      <a className="smallMB mindBodyA" target="_blank" rel="noopener noreferrer" link href="https://www.instagram.com/fit_2recover/?hl=en"> Instagram </a>
+				    </div>
+				    </Grid.Column>
+				  <Grid.Column mobile={8} tablet={4} computer={4} className="lessPadding">
+				    <div className="mindBody actualSocial">
+				    	<Image src={mindBody} className="smallMB mbWhite"/>
+				      <a className="smallMB mindBodyA" target="_blank" rel="noopener noreferrer" href="https://clients.mindbodyonline.com/classic/ws?studioid=280495&stype=-7&sView=week&sLoc=0">MindBody</a>
+				    </div>
+				    </Grid.Column>
+				  <Grid.Column mobile={8} tablet={4} computer={4}>
+				  	<div className="paypalButton">
+					    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" ref="noopener noreferrer" target="_blank">
+								<input type="hidden" name="cmd" value="_s-xclick"/>
+								<input type="hidden" name="hosted_button_id" value="49WSBMFRXF82Y"/>
+								<input type="image" src={paypal} border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" width='120' height='36'/>
+								<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+							</form>
+						</div>
+				  </Grid.Column>
+				</Grid>
 			</div>
 
 

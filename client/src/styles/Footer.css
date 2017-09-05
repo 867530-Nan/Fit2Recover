@@ -28,6 +28,21 @@
 	margin: 0 5px;
 }
 
+.paypalButton {
+  height: 40px !important;
+  width: 120px !important;
+  margin: 0 auto !important;
+  padding: 0px;
+}
+
+.paypalButton:hover {
+	opacity: 0.8 !important;
+}
+
+.ui.grid>.column:not(.row) {
+	padding-top: 0px !important;
+}
+
 i.icon.facebook, i.icon.youtube {
 	font-size: 1.5em;
 }

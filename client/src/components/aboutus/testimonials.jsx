@@ -41,7 +41,9 @@ class Testimonials extends Component {
 						</div>
 						<div className="writeTestimonialButton" style={styles.writeTestimonialButton} onClick={this.toggleVisibility}>Share Your Testimonial</div>
 						<Segment padded raised className="testimonialsList">
-							<TestimonialList testimonials={this.state.testimonials} />
+							<div className="testimonialsMarginBottom">
+								<TestimonialList testimonials={this.state.testimonials} />
+							</div>
 						</Segment>
 					</div>
 			) 
