@@ -166,7 +166,7 @@ class Home extends Component {
 											width="75" 
 											height="75" />
 									<h3 className="qTitle" style={styles.qTitle}>Community Service</h3>
-									<p className="qDesc" style={styles.qDesc}>Being selfless is be a big part of the recovery journey. Being of service allows us to step out of ourselves and our issues, and give back.</p>
+									<p className="qDesc" style={styles.qDesc}>Being selfless is a big part of the recovery journey. Being of service allows us to step out of ourselves and our issues, and give back.</p>
 									<a href="/communityservice" target="_blank" rel="noopener noreferrer" style={styles.serviceButton} className="serviceButton">Explore Community Service</a>
 							</div>
 						</Grid.Column>
