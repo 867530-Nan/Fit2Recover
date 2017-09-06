@@ -25,6 +25,7 @@ class NavBar extends Component {
           <MenuItem eventKey={1.1} href='/philosophy'>Philosophy</MenuItem>
           <MenuItem eventKey={1.2} href='/history'>Our History</MenuItem>
           <MenuItem eventKey={1.3} href='/testimonials'>Testimonials</MenuItem>
+          <MenuItem eventKey={1.3} href='/sponsors'>Sponsors &amp; Partners</MenuItem>
         </NavDropdown>
       	<NavDropdown eventKey={2} title="Programs" id="basic-nav-dropdown">
           <MenuItem eventKey={2.1} href='/fitness'>Fitness</MenuItem>

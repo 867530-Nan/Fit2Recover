@@ -63,7 +63,7 @@ class Nutrition extends Component {
 					        Have you ever seen broccoli grow? Ever wondered how many different dishes you can make with eggs? Looking for healthy and quick recipes on a budget? Join us for a cooking class and use garden-fresh ingredients from our Food to Recover garden, learn new techniques and combinations in the kitchen, and gain confidence in preparing your own food!
 					      </Card.Description>
 					      <Card.Description>
-					        Did you know doctors are now starting to <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/url?q=https%3A%2F%2Fwww.hsph.harvard.edu%2Fnews%2Fhsph-in-the-news%2Fdoctors-patients-healthy-cooking%2F&sa=D&sntz=1&usg=AFQjCNEuKBBiFjInxXBNcDwmPlbbAEsoVQ">prescribe cooking</a> classes for your health?
+					        Did you know doctors are now starting to <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/url?q=https%3A%2F%2Fwww.hsph.harvard.edu%2Fnews%2Fhsph-in-the-news%2Fdoctors-patients-healthy-cooking%2F&sa=D&sntz=1&usg=AFQjCNEuKBBiFjInxXBNcDwmPlbbAEsoVQ">prescribe cooking</a>&nbsp;classes for your health?
 					      </Card.Description>
 					      <Card.Description>
 					        Come and connect with your food and learn how it can nourish your body, mind, and spirit in our FTR Kitchen!
@@ -115,7 +115,11 @@ class Nutrition extends Component {
 					 </Grid.Column>
 
 					 <Grid.Column computer={4} tablet={6} mobile={16}> 
-						<div className="blogTitle"><a style={{color: 'black', fontSize: '20px'}} href="http://food2recover.blogspot.com/"><Icon style={{marginTop: '10px'}} name="feed" color="green" /> Food To Recover Blogposts </a></div>
+							<div className="blogTitle">
+								<a style={{color: 'black', fontSize: '20px'}} href="http://food2recover.blogspot.com/">
+									<Icon style={{marginTop: '10px'}} name="feed" color="green" /> Food To Recover Blogposts
+								</a>
+							</div>
 						<Item.Group className="commentGroup" style={styles.commentGroup}>
 							{ this.displayPosts() }	
 					  </Item.Group>

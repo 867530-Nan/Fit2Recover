@@ -18,7 +18,7 @@ import Newsletter from './components/media/newsletter';
 import Home from './components/ftr_home'
 import NoMatch from './components/nomatch'
 import Calendar from './components/calendar'
-
+import Sponsors from './components/aboutus/sponsors'
 
 class App extends Component {
   render() {
@@ -32,6 +32,7 @@ class App extends Component {
           <Route exact path='/history' component={History}/>
           <Route exact path='/philosophy' component={Philosophy}/>
           <Route exact path='/testimonials' component={Testimonials}/>
+          <Route exact path='/sponsors' component={Sponsors} />
           <Route exact path='/fitness' component={Fitness}/>
           <Route exact path='/nutrition' component={Nutrition}/>
           <Route exact path='/communityservice' component={CommunityService}/>
