@@ -6,7 +6,7 @@ import sponsors from '../photodump/sponserBanner.jpeg'
 import huddle from '../photodump/bootcamp-end-huddle.jpeg'
 import lugu from '../photodump/lugu2017.jpeg'
 import silver from '../photodump/silverStar.png'
-
+//nothing
 
 class Sponsors extends Component {
 
